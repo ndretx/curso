@@ -37,3 +37,4 @@ readln ("informe o segundo numero:" num2)
 
 calculo = nun1 + nun2
 writenln("O resultado do calculo é:" calculo):
+
