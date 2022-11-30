@@ -1,0 +1,39 @@
+1-Acessar o site da amazon
+    1.1 verificar conexão com a internet    
+    1.2  caso possua conexão com a internet
+    1.2.1 - ir ate www.amazon.com.br 
+    1.3 estabelecer conexão segura com o site
+    1.4 fim do fluxo
+2- procurar por MAC book
+3- filtar produtos por preço
+4- filtrar produtos por melhor avaliação
+5 - escolher entre as especificações 
+6-adicionar produto ao carrinho de compra
+7-escolher forma de pagamento
+8- escolher endereço
+
+
+
+
+1-imputar o primeiro numero
+1.1 se o numero for igual a zero, desconsiderar numero
+1.1.2 se o numero for diferente de zero, realizar soma normal 
+imputar o segundo numero
+realizar soma entra os dois numeros
+apresentar resultado
+CORREÇAO
+1- aguarda primeiro numero
+2- aguardar o segundo numero
+3- calcular e armazenar a soma entre o primeiro numero e o segundo numero
+4- o resultado do seu calculo é a soma armazenada
+
+const aliquota = 7,5
+Var num1;
+var num2;
+var caulculo;
+
+readln ("informe o primeiro numero:"num1)
+readln ("informe o segundo numero:" num2)
+
+calculo = nun1 + nun2
+writenln("O resultado do calculo é:" calculo):
