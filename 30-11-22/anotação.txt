@@ -1,0 +1,16 @@
+1- Descrição narrativa
+
+1- Solicitar ao usuario o valor do salário
+1.2- cacular o valor do imposto a recolher, baseado na aliquota de 7,5%
+1.3- Mostrar ao usuario o valor do imposto cobrado
+
+2 Pseudocodigo
+
+const aliquota = 7,5%
+var salário
+var importoDevido
+
+readln("informe o salario", salario);
+impostoDevido - salario * aliquota;
+
+writeln("o valor do imposto devido é:", impostoDevido);
