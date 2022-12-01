@@ -1,0 +1,47 @@
+Faça um algoritmo que receba nome do usuario e a idade 
+e mostre ao usuario mensagem:
+Olá seu nome é [nomeUsuario] e você tem [idadeUsuario] anos.
+
+=================================
+Narrativa
+
+Solicitar ao usuario o nome
+Solicitar ao usuario a idade 
+
+Armazenar nome e idade do usuario 
+
+escrever Olá seu nome é nomeUsuario e você tem idadeUsuario anos.
+===========================================
+
+Pseudocodigo
+
+var [nomeUsuario]
+var [idadeUsuario]
+
+readln("informe o nome do usuario", nomeUsuario);
+readln("informe a idade do usuario", idadeUsuario);
+
+writeln ("Olá seu nome é [nomeUsuario] e você tem [idadeUsuario] anos".)
+
+
+Faça um algoritmo que vai receber a cidade de nascimento do usuário e vai mostrar a seguinte mensagem: Você Nasceu em [NOME DA CIDADE]
+
+
+===========================
+
+Narrativa
+
+
+Solicitar ao usuario a cidade de nascimento
+
+escrever Você Nasceu em [NOME DA CIDADE]
+
+
+Pseudocodigo
+
+var [NOME DA CIDADE]
+ 
+ readln("informe a cidade de nascimento do usuário", [NOME DO USUARIO]);
+ writeln ("Você Nasceu em [NOME DA CIDADE] )
+
+ 
