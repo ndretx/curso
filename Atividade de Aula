@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-02T00:09:39.109Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="bJ_DYr1t2MrmIw8YBgWb" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-02T00:43:30.265Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="fzF5UT42zr5BD5Iw5yru" type="github">
   <diagram id="2or0X9NYrCJvY9aciUH_" name="Página-1">
-    <mxGraphModel dx="1929" dy="1022" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1301" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -66,6 +66,38 @@
         </mxCell>
         <mxCell id="mhtfVRbr1REQVEWa9rhl-27" value="fim" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="1100" y="780" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mhtfVRbr1REQVEWa9rhl-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhtfVRbr1REQVEWa9rhl-34" target="mhtfVRbr1REQVEWa9rhl-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhtfVRbr1REQVEWa9rhl-34" value="INICIO&lt;br&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1828" y="120" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mhtfVRbr1REQVEWa9rhl-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhtfVRbr1REQVEWa9rhl-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1852.9565217391305" y="570.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhtfVRbr1REQVEWa9rhl-35" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=card;whiteSpace=wrap;size=20;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="320" width="580" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="mhtfVRbr1REQVEWa9rhl-37" value="Fim&lt;br&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1930" y="1240" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mhtfVRbr1REQVEWa9rhl-41" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;Solicitar ao usuario um numero qualquer, [numeroEntrada]&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="335" width="510" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="mhtfVRbr1REQVEWa9rhl-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhtfVRbr1REQVEWa9rhl-43" target="mhtfVRbr1REQVEWa9rhl-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhtfVRbr1REQVEWa9rhl-43" value="&#xa;&lt;div style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #000000;&quot;&gt;numeroCalculado= numeroEntrada + numeroConst;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="600" width="390" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="mhtfVRbr1REQVEWa9rhl-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mhtfVRbr1REQVEWa9rhl-47" target="mhtfVRbr1REQVEWa9rhl-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhtfVRbr1REQVEWa9rhl-47" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&amp;nbsp;writeln(&quot;Você somou [&lt;span style=&quot;color: #a31515;&quot;&gt;numeroEntrada&lt;/span&gt;] mais o numero 10, o resultado é [&lt;span style=&quot;color: #a31515;&quot;&gt;numeroCalculado&lt;/span&gt;]&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="860" width="550" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
