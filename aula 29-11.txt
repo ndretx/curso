@@ -1,0 +1,70 @@
+1- Descrição narrativa
+
+1- Solicitar ao usuario o valor do salário
+1.2- cacular o valor do imposto a recolher, baseado na aliquota de 7,5%
+1.3- Mostrar ao usuario o valor do imposto cobrado
+
+2 Pseudocodigo
+
+const aliquota = 7,5%
+var salário
+var importoDevido
+
+readln("informe o salario", salario);
+impostoDevido - salario * aliquota;
+
+writeln("o valor do imposto devido é:", impostoDevido);
+
+========================================================
+tarefa de aula 
+
+Escreve um programa que baseado no valor do salario vai informar ao usuario, a aliquota do imposto de renda.
+Usando como regra a seguinte tabela
+
+Base do calculo da tabela de imposto
+
+De 1.903,99                 isento
+De 1.903,99 até 2.826,65	7,5%	
+De 2.826,66 até 3.751,05	15%	
+De 3.751,06 até 4.664,68	22,5%
+Acima de 4.664,68	        27,5%
+
+1- Descrição narrativa
+1.2- Solicitar ao usuario o valor do salario
+1.3- Se o salario for menor ou igual a 1.903,98 então escreva "Você está livre do Leão (ISENTO)"
+1.4- Se o salario for maior que 1,903,98 e menor que 2.826,66 entao escreva: "Sua aliquota é de 7,5%"
+1.5- Se o salario for maior que 2.826,65 e menor que 3.751,06 entao escreva: "Sua aliquota é de 15%"
+1.6- Se o salario for maior que 3.751,05 e menor que 4.664,68 entao escreva: "Sua aliquota é de 22,5%"
+1.7- Se o salario for maior que 4.664,68 entao escreva: "Sua aliquota é de 27,5%"
+
+==============================================================
+
+Pseudocodigo
+const faixa1 = "ISENTO" 
+ const faixa2 = "7,5%"
+ const faixa3 = "15%"
+ const faixa4 = "22,5%"
+ const faixa5 = "27,5%"
+ var salario 
+
+readln("informe o valor do seu salario", salario);
+
+if(salario) <= 1.903,98 ) then
+writeln ("Você está livre do Leão", faixa1);
+
+elseif(salario) <= 1.903,99 and <= 2.826,65 ) then
+writeln ("Sua aliquota e de 7,5%", faixa2);
+
+elseif(salario) <= 2.8626,66 and <= 3.751,05 ) then
+writeln ("Sua aliquota e de 15%", faixa3);
+
+elseif(salario) <= 3.751,06 and <= 4.664,68) then
+writeln ("Sua aliquota e de 22,5%", faixa4);
+
+elseif(salario > 4.664,68) then 
+writeln ("Sua aliquota é de 27,5%", faixa5 )
+
+else 
+writeln ("sua aliquota é de", faixa5)
+
+
