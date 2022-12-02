@@ -42,6 +42,31 @@ Pseudocodigo
 var [NOME DA CIDADE]
  
  readln("informe a cidade de nascimento do usuário", [NOME DO USUARIO]);
- writeln ("Você Nasceu em [NOME DA CIDADE] )
+ writeln ("Você Nasceu em [NOME DA CIDADE]) 
 
- 
+ ====================================================
+
+ faça um algoritimo que receba do usuario um numero qualquer, some esse numero com o numero 10 e escreva o resultado com a seguinte mensagem
+
+ voce somou [numeroEntrada] mais o numero 10,
+ o resultado é [numeroCalculado]
+
+ const=10
+ var=numeroEntrada
+
+ narrativa
+
+ Você somou numeroEntrada mais o numero 10, o resultado é numeroCalculado
+ calcular e armazenar a soma do numero informado mais o numero 10
+ Mostra ao usuario a seguinte mensagem: Você somou numeroEntrada mais o numero 10, o resultado é numeroCalculado
+
+ escrever voce somou um numero qualquer 
+
+ var=numeroEntrada
+ var=numeroCalculado
+ const numeroConst=10
+
+ readln("informe um numero qualquer",[numeroEntrada]);
+ numeroCalculado= numeroEntrada + numeroConst;
+ writeln("Você somou [numeroEntrada] mais o numero 10, o resultado é [numeroCalculado]
+
