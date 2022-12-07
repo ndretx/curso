@@ -1,0 +1,97 @@
+1- programa{
+  funcao inicio() {
+    cadeia nome
+    
+    escreva("Bem vindo ao repitidor \n")
+    escreva ("Escreva seu nome, que nós vamos repetir 1000x \n")
+    escreva("Digite agora o seu nome... \n")
+
+    leia(nome)
+
+    para(inteiro i = 0; i<1000; i++){
+      escreva ("repetição: ", i)
+      escreva("\n")
+      escreva ("Seu nome é: \n", nome)
+      escreva ("\n") 
+    }
+  }
+}
+
+
+programa {
+  funcao inicio() {
+    inteiro calculo
+    
+    para(inteiro i=0; i<1000; i++){
+      calculo = i * 2
+    escreva ("O calculo é: ", calculo)
+    escreva ("\n")
+    }
+  }
+}
+
+programa {
+  funcao inicio() {
+    inteiro numeroQualquer
+    inteiro calculo
+    
+    escreva ("Digite numeroQualquer1 ")
+    leia (numeroQualquer)
+       escreva ("Digite numeroQualquer2 ")
+    leia (numeroQualquer)
+       escreva ("Digite numeroQualquer3 ")
+    leia (numeroQualquer)
+       escreva ("Digite numeroQualquer4 ")
+    leia (numeroQualquer)
+       escreva ("Digite numeroQualquer5 ")
+  
+    para(inteiro i=0; i<4; i++){
+    
+    calculo = i + numeroQualquer1 + numeroQualquer2 + numeroQualquer3 + numeroQualquer4 + numeroQualquer5
+    escreva("O calculo é: ", calculo)
+    
+    }  
+  }
+}
+
+
+inteiro numero
+inteiro calculo 
+calculo = 0
+
+para(inteiro i=0; i<5; i++){
+  escreva ("usuario digite um numero")
+  leia (numero)
+  calculo = calculo + numero 
+}
+
+  escreva ("O valor da soma é: \n", calculo)
+  }
+ }
+} 
+
+
+programa{
+  funcao inicio () {
+    inteiro numero
+    inteiro calculo 
+    
+   
+    escreva ("usuario digite um numero qualquer")
+    leia (numero)
+     
+    para(inteiro i=0; i<10; i++){
+    calculo = numero * (i+1)
+    escreva(numero)
+    escreva( "X", i+1)
+    escreva ("= " calculo )
+    escreva ("\n")
+       
+
+
+
+
+
+    }
+  } 
+}
