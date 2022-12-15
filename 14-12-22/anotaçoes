@@ -152,3 +152,42 @@ programa {
 //amazene-os em 2 variaveis globais
 //e vai criar 4 funcoes que represetam as 4 operacoes matematicas basicas
 // e vai escrever o resultado de caqda uma das operações 
+
+
+===================================================================
+programa {
+  inteiro num1 
+  inteiro num2 
+
+  funcao real soma = (inteiro num1, inteiro num2){
+    retorne num1 + num2
+  }
+  funcao real subtracao (inteiro num1, inteiro num2){
+    retorne num1 - num2
+  }
+
+  funcao real multiplicacao (inteiro num1, inteiro num2){
+    retorne num1 * num2
+  }
+  funcao real divisao (inteiro num1, inteiro num2){
+    retorne num1/num2
+  }
+
+  funcao entradas(){                                                  -> aglomeração de funcao
+    escreva("Escreva primeiro numero: ", num1)
+    leia (num1)
+    escreva ("Escreva segundo numero: ", num2)
+    leia (num2)
+  }
+  funcao saidas (){                                                   -> aglomeração de funcao
+     escreva ("A soma entre os dois numeros é: ", soma(num1, num2),"\n") 
+    escreva ("A subtraçao entre os dois numeros é: ", subtracao(num1, num2), "\n")    
+    escreva ("A multiplicacao entre os dois numeros é: ", multiplicacao(num1, num2), "\n")
+    escreva ("A divisão entre os dois numeros é: ", divisao(num1, num2),"\n ")
+
+
+  }
+  
+  funcao inicio() {
+    entradas()
+    saidas()
