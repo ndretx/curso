@@ -1,0 +1,32 @@
+programa {
+  
+  inclua biblioteca Util --> u
+  inteiro nomeMatriz[6][6] 
+    
+  
+  
+  
+  
+  funcao inicio() {
+    para (inteiro i = 0; i < 6; i++){
+      para (inteiro j = 0; j < 6/ j++){
+        nomeMatriz[i][j] = u.sorteia(0,1)
+        escreva (" ",nomeMatriz[i][j]) , " ")
+      }
+      escreva ("\n")
+      u.aguarde(1000)
+    }
+    
+    
+  }
+}
+//faça um programa que leia uma matriz 
+//depois motre o relatorio da varredura
+//encontrar nessa matriz a posicao [i][j] o numero 3 
+// escreva essa posicao contem o numero 3 
+// comparacao com variaveis 
+// inteiro const comparacao = 3
+// se(nomeMatriz [i][j] == comparacao){
+// escreva ("na posicao", i, "x", j, "o valor é ")
+//}
+//duas estrutura de "para"

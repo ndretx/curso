@@ -1,0 +1,69 @@
+programa {
+  
+  
+  cadeia nomeCarroglobal[5]
+  real precoCarroglobal[5]
+  inteiro anoCarroglobal[5]
+
+    funcao cadeia leiaCadeia{
+      cadeia nomeCarroLocal
+      escreva("Informe o nome do carro: ")
+      leia(nomeCarroLocal)
+      retorne nomeCarroLocal
+    }
+    funcao real leiaReal{
+      real precoCarroLocal
+      escreva("Informe o preço do carro: ")
+      leia(precoCarroLocal)
+      retorne precoCarroLocal
+    }
+    
+    funcao inteiro leiaInteiro{
+     inteiro anoCarroLocal
+      escreva("Informe o ano do carro: ")
+      leia(anoCarroLocal)
+      retorne anoCarroLocal
+    }
+
+     
+
+    funcao obternome{
+      para (inteiro i = 0; i < 5; i++)
+      nomeCarroglobal[i] = leiaCadeia()
+  
+    }
+    
+    funcao obterpreco{
+      para (inteiro i = 0; i < 5; i++)
+      precoCarroglobal[i] = leiaReal()
+  
+    }
+    
+    funcao obterAno{
+      para (inteiro i = 0; i < 5; i++)
+      nomeCarroglobal[i] = leiaInteiro()
+
+      situacaoVeiculo(inteiro anoCarro){
+        se (anoCarro < 2022){
+          retorne "Seminovo"
+        } senao{
+          retorne "0km"
+      }
+    }
+  
+    funcao escrevaCatalogo(){
+      para (inteiro i = 0; i < 5; i++)
+      escreva("Modelo: ", nomeCarroglobal[i], ", Valor R$ ", precoCarroglobal[i], ", Ano: ", anoCarroglobal[i], ", ", situacaoVeiculo(anoCarroglobal[i]),"\n")
+    }
+      
+  
+  
+  funcao inicio() {
+    obternome()
+    obterpreco()
+    obterAno()
+    escrevaCatalogo()
+    
+  }
+}
+\\exercicios

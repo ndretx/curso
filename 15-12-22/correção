@@ -1,0 +1,30 @@
+programa {
+  
+  
+  
+  funcao inteiro calculoUser (inteiro num1, inteiro num2, inteiro num3){
+    retorne num1 + num2 + num3
+  }
+  
+  funcao inicio(){
+    escreva ("O resultado da soma é ", calculoUser(1,5,1))
+    
+  } 
+}
+
+
+programa {
+ 
+ 
+ funcao cadeia aloMundo(){
+  retorne "Alô mundo !"
+  
+ }
+ 
+ 
+ 
+ 
+  funcao inicio() {
+    escreva (aloMundo())
+  }
+}
