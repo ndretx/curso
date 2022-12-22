@@ -1,0 +1,36 @@
+programa {
+  funcao inicio() {
+    inteiro i
+    logico podeParar = verdadeiro
+
+    enquanto ( podeParar){
+      escreva ("Escolha uma opção: [1] continuar, [2] sair \n")
+      leia (i)
+
+      se (i==1 ){
+        podeParar = verdadeiro
+        
+      }senao se(i==2){
+        podeParar = falso
+      }
+    }
+  }
+}
+
+
+//faca um programa que tenha 2 opçoes:
+// 1 - continua no programa
+// 2 - finalizar programa
+
+==========================================================================
+
+programa {
+  funcao inicio() {
+    inteiro i = 0
+    enquanto (i<2000){
+      
+      escreva ("O valor da variavel é: ", i++, "\n" )
+    }
+    
+  }
+}

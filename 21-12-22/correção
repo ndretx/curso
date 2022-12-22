@@ -1,0 +1,57 @@
+programa {
+  
+  cadeia nomeMatriz1 [7][5] = { 
+  {0,1,1,1,0},
+  {1,0,0,0,1},
+  {1,0,0,0,1},
+  {1,1,1,1,0},
+  {1,0,0,0,1},
+  {1,0,0,0,1},
+  {1,0,0,0,1},
+  
+  cadeia nomeMatriz2 [7][5] = { 
+  {1,1,1,1,0},
+  {1,0,0,0,1},
+  {1,0,0,0,1},
+  {1,1,1,1,0},
+  {1,0,0,0,1},
+  {1,0,0,0,1},
+  {1,1,1,1,0},
+  
+    
+  } 
+  
+    funcao varrerMatriz1(){
+      para (inteiro i = 0; i < 7; i++){
+        para (inteiro j = 0; j < 5; j++){
+          se (nomeMatriz1[i][j] == "1"){
+            escreva ("*")
+          }senao{
+        } escreva("  ")
+       
+          
+      } escreva (" \n")
+    }
+  
+    funcao varrerMatriz2(){
+      para (inteiro i = 0; i < 7; i++){
+        para (inteiro j = 0; j < 5; j++){
+          se (nomeMatriz2[i][j] == "1"){
+            escreva ("*")
+          }senao{
+        } escreva("   ")
+       
+          
+      } escreva (" \n")
+    }
+  
+  
+  
+  funcao inicio() {
+    varrerMatriz1()
+      escreva("\n")
+    varrerMatriz2()
+    
+  }
+}
+
