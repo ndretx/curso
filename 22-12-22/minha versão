@@ -1,0 +1,45 @@
+programa {
+  cadeia matriz [3][3] = {               
+    {" ", " ", " "},
+    {" ", " ", " "},
+    {" ", " ", " "}
+    
+  
+  logico podeContinuar = verdadeiro
+  cadeia condicao 
+  inteiro linha, coluna
+
+    funcao varreVelha(){
+      enquanto (podeContinuar){
+        escreva ("Player 1 faça sua jogada: ")
+        escreva ("Escolha a linha ")
+        leia (linha)
+        escreva ("Escolha a coluna")
+        leia (coluna)
+        
+        se (condicao == [linha][coluna]){
+          podeContinuar = falso
+      }
+    }
+    funcao varreMatriz(){
+      para(inteiro linha = 0; linha < 3; linha++){
+        para (inteiro coluna = 0; coluna<3; coluna++){
+          se(matriz[linha][coluna] != " "){
+            escreva (matriz[linha][coluna])
+          }senao{
+            escreva ("X")
+
+          }
+        }
+      }escreva("'")
+        
+    }  
+  
+  
+  
+  
+  funcao inicio() {
+    varreVelha()
+    varreMatriz()
+  }
+}
