@@ -1,0 +1,38 @@
+.titulo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+    color: white;
+    background-color: black;
+    padding:1px;
+    border-radius: 5px;
+    width: 250px;
+   
+}
+
+.caixa{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    color: black;
+    border-radius: 15px;
+    border: solid 2px black;
+    padding: 15px;
+    box-shadow: cadetblue;
+    
+    
+}
+#centralizador{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#titulo1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    color: white;
+    background-color: black;
+    padding:1px;
+    border-radius: 5px;
+    width: 250px;
+
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<link rel='stylesheet' type='text/css' href='style.css'>
+<body>
+    <div class="titulo centralizador">   
+        <h1>Ola mundo!</h1>
+    </div>
+    <div class="caixa texto centralizador">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Itaque earum culpa eum veniam illum corporis maiores consectetur ipsa error corrupti? 
+        Laboriosam enim, molestias nihil deserunt ipsa accusantium exercitationem labore impedit?
+    </div>
+    <div id="titulo1">
+        <h2>Mundo Ola</h2>
+    </div>
+    
+    
+</body>
+</html>
