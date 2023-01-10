@@ -1,0 +1,32 @@
+Agora é sua vez!
+Faça um algoritmo que solicite ao usuário 2 números, e escreva para o usuário uma resposta
+informando qual dentre os dois números digitados é o maior. Faça o algoritmo nas suas 3
+formas
+
+==================================================================
+
+Descrição narrativa
+
+Solicitar ao usuario o primeiro numero de entrada
+Solicitar ao usuário o segundo numero de entrada 
+
+Se o primeiro numero de entrada for maior que o segundo numero de entrada 
+escreva O primeiro numero de entrada é maior que o segundo de entrada
+se não 
+escreva O segundo numero de entrada é maior que o primeiro numero de entrada
+
+
+==============================================================================
+
+Pseudocodigo
+
+var=numeroEntrada1
+var=numeroEntrada2
+
+readln ("informe o primeiro numero de entrada", numeroEntrada1);
+readln ("informe o segundo numero de entrada", numeroEntrada2);
+
+if numeroEntrada1 > numeroEntrada2
+writeln ("O numeroEntrada1 é maior que numeroEntrada2")
+elseif
+writeln ("O numeroEntrada2 é maior que numeroEntrada1")

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario</title>
+        <link rel="stylesheet" href="Style\style.css">
+       
+    </head>
+        
+    <body>
+       
+      
+        <p><h1> Cadastro </h1></p>
+    <hr>
+    </br>
+        <p><h3></h3></p>
+        <hr>
+        <form>
+            <p><label>Nome:</label> <input type="text" name="nome" value=""></p>
+            <p><label>CPF:</label> <input type="text" name="CPF" value=""></p>
+            <p><label>Telefone:</label> <input type="text" name="Telefone" value=""></p>
+            <p><label>Email:</label> <input type="email" name="email" value=""></p>
+            <p><label>Nascimento:</label> <input type="date" name="nascimento" value=""></p>
+            <p><label>Possui dependentes:</label><input type="checkbox" value=""></p>
+            <p><label>Naturalidade:</label><input</p>
+                <select>
+                <optgroup value="Naturalidade">
+                    <option>RJ</option>
+                    <option>MG</option>
+                    <option>ES</option>
+                    <option>SP</option>
+            </select> 
+            
+            <p> <input type="submit" name="salvar" value="Salvar"> <input type="reset" name="resetar" value="Reset"></p>`
+             
+        </form>
+    </body>
+</html>
+
+===============================================================================================================================
+arquivo extreno
+body{
+    background-color: teal; 
+    font-family: fantasy; 
+    font-weight: lighter; 
+    color:silver ;
+    
+}
+label{
+    color: slateblue;
+    }
+    

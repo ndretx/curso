@@ -1,0 +1,193 @@
+//faça um programa que leia 4 numeros no final precisa mostrar qual o maior numero
+
+
+
+
+programa {
+  
+  inteiro numeroMaiorGlobal = 0
+    funcao controlarMaiornumero ( inteiro numeroAcomparar, inteiro numeroMaior) -> declaração de parametros
+    se (numeroAcomparar > numeroMaior){                                          -> funçao de comparaçao
+     numeroMaiorGlobal = numeroAcomparar
+    }
+  
+  funcao obterMaiorNum(){
+    inteiro numero [4]
+
+      para (inteiro i = 0; i < 4; i++){
+      escreva("Informe um número: ")
+      leia (numero[i])
+      controlarMaiornumero(numero[i], numeroMaiorGlobal]) 
+    }
+  
+    escreva ("O maior numero é :", numeroMaiorGlobal)
+  }
+  
+  funcao inicio() {
+   
+    obterMaiorNum()
+
+
+      
+  }
+
+}
+
+
+
+
+=============================================================================
+
+
+//faça um programa que leia 6 numeros no final precisa mostrar qual o menor numero
+
+
+
+
+programa {
+  
+    inteiro numeroMenorGlobal = 100000
+      funcao controlarMaiornumero ( inteiro numeroAcomparar, inteiro numeroMaior)
+      se (numeroAcomparar < numeroMenor){
+       numeroMenorGlobal = numeroAcomparar
+      }
+    
+    funcao obterMenorNum(){
+      inteiro numero [6]
+  
+        para (inteiro i = 0; i < 6; i++){
+        escreva("Informe um número: ")
+        leia (numero[i])
+        controlarMenornumero(numero[i], numeroMenorGlobal])
+      }
+    
+      escreva ("O menor numero é :", numeroMenorGlobal)
+    }
+    
+    funcao inicio() {
+     
+      obterMaiorNum()
+  
+  
+        
+    }
+  
+  }
+  
+
+
+================================================================
+
+//crie um programa que tenha uma funcao que solicite a idade do usuario e retorne seu valor já escrevendo a mensagem 
+
+//"A idade digiditada é " [idade]
+
+
+
+
+programa {
+  funcao inteiro obterIdade(){        -> declaraçao de funcao, definiçao de tipagem
+   inteiro idade = 0
+    escreva ("Digite uma idade: ")
+    leia (idade)
+    retorne (idade)                    -> declaracao de retrono
+ }
+  
+  
+  funcao inicio() {
+    escreva ("A idade digitada é :", obterIdade()) -> chamada de função dentro de outra funcao
+  }
+}
+
+
+
+programa {
+  
+  funcao meuCalculo = (inteiro num1, inteiro num2, inteiro num3 ){
+    retorne (num1 + num2 + num3) / 3
+  }
+  
+  funcao inicio() {
+    escreva ("A media entre as tres notas é: ",
+    meuCalculo(1,5,1)
+    
+  }
+}
+
+
+programa {
+  inteiro num1 
+  inteiro num2 
+
+  funcao real soma = (inteiro num1, inteiro num2){
+    retorne num1 + num2
+  }
+  funcao real subtracao (inteiro num1, inteiro num2){
+    retorne num1 - num2
+  }
+
+  funcao real multiplicacao (inteiro num1, inteiro num2){
+    retorne num1 * num2
+  }
+  funcao real divisao (inteiro num1, inteiro num2){
+    retorne num1/num2
+  }
+  
+  funcao inicio() {
+    escreva("Escreva primeiro numero: ", num1)
+    leia (num1)
+    escreva ("Escreva segundo numero: ", num2)
+    leia (num2)
+    
+    escreva ("A soma entre os dois numeros é: ", soma(num1, num2),"\n") 
+    escreva ("A subtraçao entre os dois numeros é: ", subtracao(num1, num2), "\n")    
+    escreva ("A multiplicacao entre os dois numeros é: ", multiplicacao(num1, num2), "\n")
+    escreva ("A divisão entre os dois numeros é: ", divisao(num1, num2),"\n ")
+
+}
+
+
+
+//faça um sistema que obtenha dois numeros do usuario,
+//amazene-os em 2 variaveis globais
+//e vai criar 4 funcoes que represetam as 4 operacoes matematicas basicas
+// e vai escrever o resultado de caqda uma das operações 
+
+
+===================================================================
+programa {
+  inteiro num1 
+  inteiro num2 
+
+  funcao real soma = (inteiro num1, inteiro num2){
+    retorne num1 + num2
+  }
+  funcao real subtracao (inteiro num1, inteiro num2){
+    retorne num1 - num2
+  }
+
+  funcao real multiplicacao (inteiro num1, inteiro num2){
+    retorne num1 * num2
+  }
+  funcao real divisao (inteiro num1, inteiro num2){
+    retorne num1/num2
+  }
+
+  funcao entradas(){                                                  -> aglomeração de funcao
+    escreva("Escreva primeiro numero: ", num1)
+    leia (num1)
+    escreva ("Escreva segundo numero: ", num2)
+    leia (num2)
+  }
+  funcao saidas (){                                                   -> aglomeração de funcao
+     escreva ("A soma entre os dois numeros é: ", soma(num1, num2),"\n") 
+    escreva ("A subtraçao entre os dois numeros é: ", subtracao(num1, num2), "\n")    
+    escreva ("A multiplicacao entre os dois numeros é: ", multiplicacao(num1, num2), "\n")
+    escreva ("A divisão entre os dois numeros é: ", divisao(num1, num2),"\n ")
+
+
+  }
+  
+  funcao inicio() {
+    entradas()
+    saidas()19

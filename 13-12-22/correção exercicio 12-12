@@ -1,0 +1,37 @@
+programa {
+
+ funcao gerador (){
+  escreva("Olá mundo ! ")
+ } 
+ 
+ 
+ 
+  funcao inicio() {
+    gerador()
+    
+  }
+}
+
+
+c)
+
+programa {
+  
+  inteiro repeticaoGlobal
+  funcao gerador(){
+    escreva ("Boa noite! \n")
+  }  
+  funcao repetidor(inteiro repeticoes){
+    para(inteiro i = 0; i<repeticoes; i++{
+      gerador()
+    }
+  }
+  
+  
+  funcao inicio() {
+    escreva ("Digite a quantidade de repetiçoes: \n")
+    leia (repeticaoGlobal)
+    repetidor(repeticaoGlobal)
+    
+  }
+}

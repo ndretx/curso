@@ -1,0 +1,43 @@
+
+
+7
+programa {
+  funcao inicio() {
+  inteiro num1
+
+  escreva("Digite um numero qualquer ", num1)
+  leia (num1)  
+  
+  escreva ("O seu numero é ", num1, ", o dobro do seu numero é ", num1*2, " e a terça parte do seu numero é " ,num1/3, )
+  
+  }
+}
+
+
+9
+programa {
+  funcao inicio() {
+    inteiro num1
+    inteiro calculo = 5.23
+
+escreva(" Digite quantos reais voce possui na sua carteira ", num1)
+leia(num1)
+
+escreva ("Voce possui US$",num1/calculo , " dolares em sua carteira!") 
+
+
+  }
+}
+
+
+
+programa {
+  funcao inicio() {
+    inteiro num1
+    inteiro calculo = 5.23
+
+escreva(" Digite quantos reais voce possui na sua carteira ", num1)
+leia(num1)
+
+escreva ("Voce possui US$",num1/calculo , " dolares em sua carteira")
+

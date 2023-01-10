@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() {
+    inteiro idade [8]
+    inteiro somaIdade = 0 
+    inteiro mediaIdade = 0
+
+    para(inteiro i=0; i<8; i++){
+    escreva("Digite a sua idade ") 
+    leia (idade[i]) 
+    somaIdade= somaIdade + idade[i]
+
+    }
+    mediaIdade = somaIdade/8 
+    escreva ("A média das idades é: ", mediaIdade)    
+  
+
+
+  }
+}
